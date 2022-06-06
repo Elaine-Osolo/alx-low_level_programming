@@ -5,10 +5,12 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{char t;
+{char c = 'z';
 
-for (t = 'z'; t >= 'a'; t--)
-putchar(t);
+while (c >= 'a')
+{putchar(c);
+c--;
+}
 
 putchar('\n');
 return (0);
