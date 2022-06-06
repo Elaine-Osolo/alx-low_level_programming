@@ -14,8 +14,8 @@ putchar((m % 10) + '0');
 if (m == 9)
 continue;
 
-putchar(' , ');
-putchar('  ');
+putchar(',');
+putchar(' ');
 }
 
 putchar('\n');
