@@ -23,7 +23,7 @@ putchar(z);
 if (x != '7')
 {
 putchar(',');
-putchar('');
+putchar(' ');
 }
 }
 }
