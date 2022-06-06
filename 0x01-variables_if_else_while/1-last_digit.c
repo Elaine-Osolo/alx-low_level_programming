@@ -21,7 +21,7 @@ if (s > 5)
 else if (s == 0)
 {printf("0\n");
 }
-else if (s < 6 && s != 0)
+else if (s < 6)
 {printf("less than 6 and not 0\n");
 }
 return (0);
