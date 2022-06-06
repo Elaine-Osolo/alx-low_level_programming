@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
 /**
  * main - Prints all possible combinations of three different digits
  *
@@ -23,7 +22,7 @@ putchar(z);
 
 if (x != '7')
 {
-putchar(' ,');
+putchar(',');
 putchar('');
 }
 }
