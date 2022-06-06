@@ -5,10 +5,11 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{int k;
-for (k = 0; k <= 9; k++)
-{putchar((k % 10) + '0');
-if (k == 9)
+{int m;
+for (m = 0; m <= 9; m++)
+{putchar((m % 10) + '0');
+if (m == 9)
+continue;
 
 putchar(',');
 putchar('');
