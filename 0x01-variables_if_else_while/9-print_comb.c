@@ -14,7 +14,6 @@ putchar(m);
 
 if (m != 9)
 {
-
 putchar(',');
 putchar(' ');
 }
