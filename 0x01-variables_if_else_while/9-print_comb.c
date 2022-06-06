@@ -11,7 +11,7 @@ for (m = 0; m <= 9; m++)
 if (m == 9)
 continue;
 
-putchar('',);
+putchar(',');
 putchar('');
 }
 putchar('\n');
