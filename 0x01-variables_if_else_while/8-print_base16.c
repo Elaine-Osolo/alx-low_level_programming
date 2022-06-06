@@ -9,10 +9,10 @@ int main(void)
 char l;
 
 for (m = 0; m < 16; m++)
-putchar((m % 16) + '0')
+putchar((m % 16) + '0');
 
 for (l = 'a'; l <= 'f'; l++)
-putchar(l)
+putchar(l);
 
 putchar('\n');
 return (0);
