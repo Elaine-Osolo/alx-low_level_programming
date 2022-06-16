@@ -43,7 +43,7 @@ _putchar(((j * i) % 10) + '0');
 else if ((i * j) < 1000)
 {
 _putchar(' ');
-_putchar((((j * i) % 10 + '0');
+_putchar((((j * i) / 100) % 10 + '0');
 _putchar((((j * i) / 10) % 10) + '0');
 _putchar(((j * i) % 10) + '0');
 }
